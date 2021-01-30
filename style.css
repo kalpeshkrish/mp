@@ -1,0 +1,96 @@
+h1{
+    color: rgb(238, 46, 46);
+    margin-left: 30px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+a:link{
+    color: orange;
+
+}
+a:visited{
+    color:rgb(255, 0, 212) ;
+
+}
+
+.header{
+    background-color: rgb(236, 225, 201);
+    display:flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer{
+   display: flex; 
+   justify-content: flex-end;
+   justify-content: center;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: #8295AA;
+}
+img{
+    border-radius: 20px;
+}
+
+.menu a{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+}
+.item:hover img{
+    opacity: 0.15;
+    transform: scale(1.2);
+}
+.footer:hover img{
+    transform: scale(1.5);
+    opacity: 0.15;
+}
+.header p{
+    justify-content: left;
+;
+
+}
+.menu a{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.footer p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+   
+}
+.footer:hover p{
+    opacity: 1;
+    font-size: 20px;
+}
+.footer{
+    position:relative;
+}
